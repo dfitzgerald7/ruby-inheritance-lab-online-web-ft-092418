@@ -4,4 +4,8 @@ class Student < User
     self.knowledge = []
   end 
 
+  def learn(str) 
+    self.knowledge << str
+  end 
+
 end
